@@ -1,3 +1,14 @@
 .header-container {
-  background-color: blueviolet;
+  background-color: rgba(142, 53, 250, 0.5);
+  padding: 1rem;
+}
+button {
+  color: bisque;
+  background-color: black;
+  padding: 1rem 5rem;
+}
+button:hover {
+  background-color: bisque;
+  color: black;
+  cursor: pointer;
 }

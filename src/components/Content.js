@@ -1,18 +1,26 @@
 import "./content.css";
 
 const Content = (props) => {
-  const { date, hdurl, title } = props;
+  const { date, hdurl, title, explanation } = props;
   return (
     <div className="container">
       <div className="img-container">
         <img src={hdurl} />
       </div>
-      <table>
-        <tr>
-          <td className="date-container">{date}</td>
-          <td className="date-container">{title}</td>
-        </tr>
-      </table>
+      <div className="datas">
+        <div>
+          Date:
+          {date}
+        </div>
+        <div>
+          Title:
+          {title}
+        </div>
+        <div>
+          Explanation:
+          {explanation}
+        </div>
+      </div>
     </div>
   );
 };
