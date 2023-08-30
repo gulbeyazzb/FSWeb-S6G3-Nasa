@@ -25,3 +25,17 @@
   border: 2px solid black;
   padding: 1rem;
 }
+
+@media (max-width: 1020px) {
+  .container {
+    flex-direction: column;
+  }
+  .img-container {
+    width: 100%;
+  }
+  .datas {
+    margin-bottom: 0.5rem;
+    width: 100%;
+    text-align: left;
+  }
+}
