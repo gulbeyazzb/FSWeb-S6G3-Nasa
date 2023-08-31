@@ -1,14 +1,5 @@
-.header-container {
-  background-color: rgba(142, 53, 250, 0.5);
-  padding: 1rem;
-}
-button {
-  color: bisque;
-  background-color: black;
-  padding: 1rem 5rem;
-}
 button:hover {
-  background-color: rgb(57, 52, 46);
+  background-color: #ede9e4;
   cursor: pointer;
-  border: none;
+  color: black;
 }
